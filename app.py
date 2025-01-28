@@ -9,7 +9,7 @@ import pandas as pd
 import datetime as dt
 
 
-
+#simon estuvo aqui
 
 app = dash.Dash(
     __name__,
@@ -180,7 +180,7 @@ def generate_control_card():
      
         ]
     )
-
+#chocokrispis
 
 app.layout = html.Div(
     id="app-container",
@@ -242,7 +242,7 @@ def update_output_div(date, hour, proy):
         # Graficar
         plot = plot_series(data, initial_date, int(proy))
         return plot
-
+#y aqui tambien
 
 # Run the server
 if __name__ == "__main__":
